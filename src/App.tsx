@@ -75,7 +75,7 @@ function App() {
     const timeout = window.setTimeout(() => controller.abort(), 20000)
     setSubmission('sending')
     try {
-      const response = await fetch('https://formsubmit.co/ajax/aaronmaraya7@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/quicktyreltd@gmail.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         signal: controller.signal,
@@ -160,7 +160,7 @@ function App() {
       <section id="contact" className="contact" aria-labelledby="contact-title">
         <div className="contact-main">
           <div className="contact-heading">{isContactPage ? <h1 id="contact-title">Get in Touch</h1> : <h2 id="contact-title">Contact us</h2>}<div><p>{isContactPage ? 'Need tire service? Get in touch with us today for fast, reliable mobile tire solutions.' : isInternalPage ? 'Ready to get back on the road? Contact QuickTyre Ltd. today for fast, professional mobile tire service.' : 'Contact QuickTyre Ltd. today and experience the convenience of professional mobile tire service!'}</p><p>{isInternalPage ? 'For 24/7 emergency service, please call: ' : 'Please call us for 24/7 emergency service: '}<a href="tel:+15872849953">(587) 284-9953</a></p></div></div>
-          <form className="quote-form" action="https://formsubmit.co/aaronmaraya7@gmail.com" method="POST" onSubmit={submitQuote} aria-busy={submission === 'sending'}>
+          <form className="quote-form" action="https://formsubmit.co/quicktyreltd@gmail.com" method="POST" onSubmit={submitQuote} aria-busy={submission === 'sending'}>
             <input type="text" name="_honey" className="form-honeypot" tabIndex={-1} autoComplete="off" aria-hidden="true" />
             <fieldset disabled={submission === 'sending'}>
             <div className="form-row"><div className="form-field"><label htmlFor="first-name">First name{isContactPage ? '' : ' *'}</label><Input id="first-name" name="firstName" autoComplete="given-name" required={!isContactPage} placeholder={isContactPage ? 'First name' : undefined} maxLength={100} pattern=".*\S.*" /></div><div className="form-field"><label htmlFor="last-name">Last name{isContactPage ? '' : ' *'}</label><Input id="last-name" name="lastName" autoComplete="family-name" required={!isContactPage} placeholder={isContactPage ? 'Last name' : undefined} maxLength={100} pattern=".*\S.*" /></div></div>
@@ -169,7 +169,7 @@ function App() {
             <Button type="submit" className="quote-submit">{submission === 'sending' ? 'Sending...' : isContactPage ? 'Submit' : 'Get a Quote'}</Button>
             </fieldset>
             {submission === 'success' && <p className="form-feedback" role="status">Thank you. Your request has been submitted.</p>}
-            {submission === 'error' && <p className="form-feedback" role="alert">We couldn’t send your request. Please try again, email <a href="mailto:aaronmaraya7@gmail.com">aaronmaraya7@gmail.com</a>, or call <a href="tel:+15872849953">(587) 284-9953</a>.</p>}
+            {submission === 'error' && <p className="form-feedback" role="alert">We couldn’t send your request. Please try again, email <a href="mailto:quicktyreltd@gmail.com">quicktyreltd@gmail.com</a>, or call <a href="tel:+15872849953">(587) 284-9953</a>.</p>}
           </form>
         </div>
         {!isContactPage && <div className="contact-photo"><img src={images.contact} alt="An off-road tire surrounded by tires in an orange-lit workshop" loading="lazy" /></div>}

@@ -11,7 +11,7 @@ Direction comes from the screenshots and seven original images supplied by the u
 - ENERGY 4 / RHYTHM 4 / MOTION 1. Photography and oversized italic type provide the energy; the varied split and full width sections set the rhythm. Motion is limited to hover feedback and optional smooth anchor scrolling, respecting reduced motion.
 - Copy, reviews, names, contact details, and section order are transcribed from the user's screenshots.
 
-The shared form validates required fields and posts requests to FormSubmit at the user's recipient, aaronmaraya7@gmail.com. Sending, success and retry states remain on the page. Provider activation requires confirmation from the recipient's inbox.
+The shared form validates required fields and posts requests to FormSubmit at the user's recipient, quicktyreltd@gmail.com. Sending, success and retry states remain on the page. Provider activation requires confirmation from the recipient's inbox.
 
 ## Services reference
 
@@ -93,3 +93,4 @@ The shared form validates required fields and posts requests to FormSubmit at th
 
 - Each FormSubmit request sends a subject containing a UTC timestamp and short random identifier. Distinct subjects keep independent new submissions from being grouped as one Gmail conversation. Existing conversations are unaffected; recipient and message fields remain the same (R-26, R-31).
 - The latest request makes Message optional on every form and removes the earlier generated quote sentence. An empty textarea submits an empty message; the Contact label no longer has a required asterisk. Email validation remains required (R-26, R-27, R-38).
+- The latest recipient change sends Contact Submit and all Get a Quote requests to quicktyreltd@gmail.com. Both FormSubmit endpoints and the submission-error email link use this business address (R-24, R-26).

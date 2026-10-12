@@ -19,7 +19,7 @@ Original photographs and logos live in `public/images`, including the Services a
 
 ## Quote form
 
-All pages submit through FormSubmit to `aaronmaraya7@gmail.com`, with sending, success and retry feedback. Email is required; Message is optional and blank messages stay blank. Each submission has a unique subject to keep independent requests separate. Home, Services and Our Works also require first and last names; the Contact page makes names optional.
+All pages submit through FormSubmit to `quicktyreltd@gmail.com`, with sending, success and retry feedback. Email is required; Message is optional and blank messages stay blank. Each submission has a unique subject to keep independent requests separate. Home, Services and Our Works also require first and last names; the Contact page makes names optional.
 
 The form service needs no Netlify environment variables or server functions. FormSubmit requires the recipient to confirm its activation email if the address has not already been activated. Actual delivery should be checked once from the deployed website.
 

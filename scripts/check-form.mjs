@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 
 export async function verifyForm(page, results, { contactPage = false } = {}) {
-  const endpoint = 'https://formsubmit.co/ajax/aaronmaraya7@gmail.com'
+  const endpoint = 'https://formsubmit.co/ajax/quicktyreltd@gmail.com'
   const requests = []
   let release
   let response = { success: 'true' }
@@ -58,7 +58,7 @@ export async function verifyForm(page, results, { contactPage = false } = {}) {
     await page.getByRole('alert').waitFor()
     assert.equal(await page.locator('#email').inputValue(), 'retry@example.com')
     assert.equal(await page.locator('#message').inputValue(), 'Keep these details on failure.')
-    assert.equal(await page.getByRole('alert').getByRole('link', { name: 'aaronmaraya7@gmail.com' }).getAttribute('href'), 'mailto:aaronmaraya7@gmail.com')
+    assert.equal(await page.getByRole('alert').getByRole('link', { name: 'quicktyreltd@gmail.com' }).getAttribute('href'), 'mailto:quicktyreltd@gmail.com')
     response = { success: true }
     await page.locator('.quote-submit').click()
     await page.getByText('Thank you. Your request has been submitted.', { exact: true }).waitFor()
