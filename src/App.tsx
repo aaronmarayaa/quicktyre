@@ -114,8 +114,8 @@ function App() {
         <h1 className="hero-wordmark">Quicktyre</h1>
         <div className="hero-intro">
           <h2>Fast. Reliable. Mobile<br className="desktop-break" /> Tire Service</h2>
-          <a href="#contact" className="arrow-link hero-quote">Get a Quote <ArrowRight aria-hidden="true" /></a>
         </div>
+        <a href="#contact" className="arrow-link hero-quote">Get a Quote <ArrowRight aria-hidden="true" /></a>
       </section>
 
       <section className="journey" aria-labelledby="journey-title" data-header-second-section>

@@ -94,3 +94,8 @@ The shared form validates required fields and posts requests to FormSubmit at th
 - Each FormSubmit request sends a subject containing a UTC timestamp and short random identifier. Distinct subjects keep independent new submissions from being grouped as one Gmail conversation. Existing conversations are unaffected; recipient and message fields remain the same (R-26, R-31).
 - The latest request makes Message optional on every form and removes the earlier generated quote sentence. An empty textarea submits an empty message; the Contact label no longer has a required asterisk. Email validation remains required (R-26, R-27, R-38).
 - The latest recipient change sends Contact Submit and all Get a Quote requests to quicktyreltd@gmail.com. Both FormSubmit endpoints and the submission-error email link use this business address (R-24, R-26).
+
+## Home quote placement
+
+- Get a Quote now sits at the lower left, aligned with the desktop header's left inset. The wordmark stays centered and the service heading keeps its previous right-hand position (R-03, R-31).
+- On phones the quote retains the same 6% left edge as the service heading. It preserves its contact-form anchor, minimum 44px height and the requested left-to-right ease-in reveal, with immediate visibility for reduced motion or keyboard focus (R-19, R-24, R-32).
